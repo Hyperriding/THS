@@ -1,0 +1,32 @@
+.gradient-background {
+    background: linear-gradient(300deg, #c4cd5a, white, #7089bf);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+ h1 {
+  -webkit-text-stroke: 0.1rem #c4cd5a;
+  -webkit-text-fill-color: transparent;
+ }
+ 
+ #title>div>h1>span {
+  -webkit-text-stroke: 0.1rem #7089bf;
+  -webkit-text-fill-color: transparent;
+ }
+
+/* #heading > div > header > ul > li:nth-child(1) > a {
+  background-color: #c4cd5a;
+} */
+
