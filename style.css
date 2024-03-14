@@ -30,3 +30,14 @@
   background-color: #c4cd5a;
 } */
 
+.nav-pills a:hover {
+  background-color: #c4cd5a;
+}
+
+.stickToTop {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+}
